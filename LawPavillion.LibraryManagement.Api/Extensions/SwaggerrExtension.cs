@@ -14,7 +14,7 @@ namespace LawPavillion.LibraryManagement.Api.Extensions
                     Version = "v1"
                 });
 
-                // This for locking the API with roles inside the controller  
+                // This is for locking the API with roles inside the controller  
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
                     Name = "Authorization",
